@@ -1,0 +1,11 @@
+ngOnInit is a life cycle hook called by Angular to indicate that Angular is done 
+creating the component.
+
+Template Expression
+-------------------
+
+1. in page3.component.ts  create a variable with name
+        pageNameDemo = 'page 1 display';
+
+2. in page3.component.html add the string interpolation to it
+        <p>{{pageNameDemo}}</p>  -> this display's as <p>page 1 display</p> in browser
