@@ -1,0 +1,22 @@
+1. Create a new project
+        ng new SimpleAngularApp
+
+2. Create a new component
+        ng generate component Page1
+                OR
+        ng g c Page1
+        ng g c Page2
+        ng g c Page3
+        ng g c Header
+        ng g c Footer
+
+3. After running step-2 automatically any entry is added in app.module.ts
+   app.module.ts -> Tells where to find all the diffrent elements of out application
+   along with import
+    
+    import { Page1Component } from './page1/page1.component';
+
+    declarations: [
+        AppComponent,
+        Page1Component
+    ],

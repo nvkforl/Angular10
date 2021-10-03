@@ -1,0 +1,15 @@
+1. install latest node JS
+2. Install latest NPM
+3. install latest Angular CLI
+
+Creating a new project in Angular
+--------------------------------
+ng is the command specifically used for angular 
+
+1. creating new project
+    ng new hello-world
+
+2. Starting a server
+    ng serve 
+
+Install "Angular Essentails" from VSC plugin manager

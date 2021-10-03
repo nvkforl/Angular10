@@ -1,0 +1,17 @@
+Component = HTMl + TypeScript code 
+
+
+There are 4 files in the Component file structure
+1. HTML - my-Component.html
+2. CSS -  my-Component.css
+3. Class - my-Component.ts  -> for writing TS code
+4. Spec - my-Component.spec.ts -> used for unit testing
+
+app-root - present in the index.html links to components selector 
+
+Decorator =  @Component, So within the decorator we have selector,templateUrl,styleUrls
+@Component({
+  selector: 'app-root', -> links to index.html, mainly used for recogizing the component w.r.t name
+  templateUrl: './app.component.html', -> links to html file
+  styleUrls: ['./app.component.css'] -> links to css file
+})
